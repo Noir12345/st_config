@@ -254,7 +254,7 @@ static char *opt_io    = NULL;
 static char *opt_line  = NULL;
 static char *opt_name  = NULL;
 static char *opt_title = NULL;
-
+static int cursorblinks = 0;
 static uint buttons; /* bit field of pressed buttons */
 
 void
